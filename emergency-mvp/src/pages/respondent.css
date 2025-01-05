@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.respondent-dashboard {
+    margin-bottom: 20rem;
+    padding: 20px;
+    font-family: "Inter", serif;
+}
+
+.respondent-dashboard h1 {
+    font-size: 2rem;
+    color: #1e293b;
+    margin-bottom: 10px;
+    
+}
+
+
+.emergency-table {
+    width: 100%;
+    
+    border-collapse: separate; /* Important: 'separate' to allow border-radius */
+    border-spacing: 0;
+    margin-top: 20px;
+    border: 1px solid #ccc; /* Add a border for better clarity */
+    border-radius: 10px; /* Rounded corners for the table */
+    overflow: hidden; /* Ensures contents respect border-radius */
+}
+
+.emergency-table th,
+.emergency-table td {
+    text-align: left;
+    color: black;
+    padding: 10px;
+    border: 1px solid #ccc;
+    
+}
+.emergency-table th {
+    background-color: #1e293b;
+    color: white;
+}
+
+/* Ensure the first and last rows have rounded corners */
+.emergency-table thead tr:first-child th:first-child {
+    border-top-left-radius: 10px;
+}
+
+.emergency-table thead tr:first-child th:last-child {
+    border-top-right-radius: 10px;
+}
+
+.emergency-table tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+.emergency-table tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+.emergency-table tbody tr:nth-child(odd) {
+    background-color: #f9fafb;
+}
+
+.status-badge {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.status-badge.pending {
+    background-color: #ef4444; /* Red for pending */
+}
+
+.status-badge.in-progress {
+    background-color: #f59e0b; /* Yellow for in-progress */
+}
+
+
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* pop-up display */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+/* pop-up card */
+.popup-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+    width: 80%;
+    max-width: 500px;
+    text-align: left;
+    position: relative;
+    color: black;
+}
+
+.headingpop {
+    color: #3b82f6;
+    margin-top: -0.5rem;
+}
+
+.close-btn {
+    position: absolute;
+    top: 12px;
+    right: 13px;
+    font-size: 15px;
+    background-color: #131311;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    width: fit-content;
+    padding: 0.5rem;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.status-dropdown {
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  .status-dropdown:focus {
+    outline: none;
+    border: none;
+    
+  }
+  
+  
+
+.close-btn:hover {
+    background-color: #393737;
+    transform: scale(1.1);
+    border: white;
+}
+
+.close-btn:active {
+    transform: scale(0.95);
+}
+
+.viewbtn {
+    background-color:#1e293bd3; /* Blue */
+    margin-left: 0.6rem;
+    color: white;
+    padding: 0.7rem;
+    font-size: 0.8rem;
+    width: fit-content;
+}
+
+
+
+.dirbtn {
+    background-color: rgb(225, 149, 7);   /* Green */
+    margin-left: 2rem;
+    margin-right: 0.5rem;
+    color: white;
+    border: none;
+    font-size: 0.8rem;
+    padding: 0.7rem;
+    width: fit-content;
+}
+
+.dirbtn:hover{
+    background-color:    rgb(151, 99, 2)
+}

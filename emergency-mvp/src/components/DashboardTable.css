@@ -1,0 +1,73 @@
+/* DashboardTable.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.dashboard-table-container {
+    font-family: "Inter", serif;
+    margin-top: 5rem;
+    
+    margin-bottom: 2rem;
+    overflow-x: auto; /* Ensures responsiveness for smaller screens */
+   
+  }
+  
+  .dashboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "Inter", serif;
+  }
+  
+  .dashboard-table th,
+  .dashboard-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .dashboard-table th {
+    background-color: #1E293B;
+    color: white;
+    font-weight: bold;
+  }
+
+  .dashboard-table td {
+    color: black; /* Ensures text in td is black */
+    font-family: "Inter", serif;
+  }
+  
+  .dashboard-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .dashboard-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dashboard-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  #actions{
+    text-align: center;
+  }
+  
+  .dashboard-actions button {
+    padding: 8px 12px;
+    background-color:#E0E0E0;
+    color: #8b8a8a;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .dashboard-actions button:hover {
+    background-color: #0978e8f6;
+  }
+  
+  .dashboard-actions button:active {
+    transform: translateY(2px);
+  }
+  
