@@ -174,7 +174,7 @@ const EmergencyForm = () => {
                 className="fetch-location"
                 onClick={getCurrentLocation}
               >
-               AUTO
+                AUTO
               </button>
             </div>
 

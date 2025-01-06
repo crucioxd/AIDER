@@ -1,0 +1,27 @@
+.reviews-section {
+    padding: 40px 20px;
+    background-color: #000E27;
+    color: white;
+    text-align: center;
+  }
+  
+  .reviews-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .review-card {
+    background-color: #162447;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+  }
+  
+  .review-card h4 {
+    margin-top: 10px;
+    color: #ff4c60; /* Orange accent */
+  }
+  

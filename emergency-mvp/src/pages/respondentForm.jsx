@@ -7,9 +7,11 @@ const RespondentDashboard = () => {
   const [emergencies, setEmergencies] = useState([]);
   const [selectedEmergency, setSelectedEmergency] = useState(null);
   const [error, setError] = useState("");
-  const [isEmpty, setIsEmpty] = useState(false); // Track empty state
+  const [isEmpty, setIsEmpty] = useState(false); 
+  // Track empty state
   const navigate = useNavigate(); // Initialize navigate
-
+  
+  
   useEffect(() => {
     const fetchEmergencies = async () => {
       try {

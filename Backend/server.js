@@ -16,6 +16,7 @@ app.use(bodyParser.json());
 // Routes
 const emergencyRoutes = require("./routes/emergencyRoutes");
 app.use("/api", emergencyRoutes);
+ // Use the reviews route
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {

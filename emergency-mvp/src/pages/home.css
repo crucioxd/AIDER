@@ -1,0 +1,125 @@
+.home-container {
+    text-align: center;
+    color: white;
+    background-color: #000e27; /* Dark Blue */
+    width: 100.3%;
+    margin-top: 0.2rem;
+    
+  }
+
+  
+  .home-content {
+    background: url("../assets/backkfinal.png");
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 30rem;
+  font-size: 1.25rem;
+  
+  justify-content: center;
+    padding: 50px;
+    padding-bottom: 10rem;
+    padding-left: 2.2rem;
+    text-align: center; 
+    
+    margin-bottom: -2.5rem;
+   display: flex;
+    
+
+
+  }
+ 
+  .home-content h1{
+    margin-top: 7rem;
+  }
+
+
+  .ambImg{
+    margin-left: 50rem;
+    margin-top: -100rem;
+    border-radius: 10%;
+    
+  }
+  
+  .typed{
+    
+   margin-bottom: 2rem; 
+   font-size: larger; 
+   margin-top: -1rem;
+  }
+  
+  .cta-button {
+    background-color: #b35502; /* Orange */
+    color: white;
+    width: fit-content;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .cta-button:hover {
+    background-color: #c74b03;
+  }
+  .features-section {
+    text-align: center;
+    margin: 50px 0;
+    color: white;
+  }
+  .features-section h1{
+        margin-top: 8rem;
+        margin-bottom: 4rem;
+  }
+  
+  
+  .features-section h2 {
+    margin-bottom: 20px;
+    font-size: 800;
+  }
+  
+  .features-cards {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding: 20px;
+  }
+  
+  .feature-card {
+    background-color: #002a4d; /* Slightly lighter dark blue */
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .feature-card h3 {
+    color: #ff851b; /* Orange */
+    margin-bottom: 10px;
+  }
+  
+  .feature-card p {
+    color: #d0d0d0; /* Light gray */
+  }
+  
+
+  @keyframes fadeInScale {
+    0% {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  .heading-animation {
+    animation: fadeInScale 1s ease-out forwards;
+  }
