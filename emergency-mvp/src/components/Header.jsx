@@ -10,8 +10,9 @@ const Header = () => {
       <div className="navbar-logo">Aider <h3>+</h3></div>
       <ul className="navbar-links">
         {[
-          { path: "/home", label: "Home" },
-          { path: "/", label: "Emergency Registration", },
+         
+          { path: "/", label: "Home", },
+          { path: "/emergency", label: "Emergency Registration" },
           { path: "/respondent", label: "Respondent", },
           { path: "/about-us", label: "About Us" },
           { path: "/contact-us", label: "Contact Us" },

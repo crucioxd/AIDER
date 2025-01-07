@@ -6,6 +6,8 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import RespondentDashboard from "./pages/respondentForm";
 import HomePage from "./pages/HomePage";
+import LoginPage from "./pages/login";
+import SignUpPage from "./pages/Signup";
 
 const App = () => {
   return (
@@ -14,10 +16,12 @@ const App = () => {
         <Header />
         <div className="content-wrapper">
           <Routes>
-          <Route path="/home" element={<HomePage />} />
-            <Route path="/" element={<EmergencyForm />} />
+          <Route path="/emergency" element={<EmergencyForm />} />
+            <Route path="/" element={<HomePage/>} />
             <Route path="/admin-dashboard" element={<AdminDashboard />} />
             <Route path="/respondent" element={<RespondentDashboard />} />
+            <Route path="/login" element={<LoginPage />} />
+            <Route path="/signup" element={<SignUpPage/>} />
           </Routes>
         </div>
        

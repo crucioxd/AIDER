@@ -179,6 +179,7 @@ body, html {
   width: 100%;
   max-width: 500px;
   margin-bottom: 3rem;
+  margin-top: 4rem;
   
 
 }
@@ -209,8 +210,13 @@ label {
 
 .name-fields {
   display: flex;
-  gap: 10px;
+  gap: 2rem;
+  margin-left: 10px;
   width: fit-content;
+}
+
+.phone{
+  margin-left: 0;
 }
 
 .name-fields input {
