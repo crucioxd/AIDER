@@ -148,6 +148,7 @@ body, html {
     text-align: left;
   }
 }
+/* Logout Button Styles */
 
 /* Keyframes for Navbar Animation */
 @keyframes fadeInDown {
@@ -160,6 +161,32 @@ body, html {
     transform: translateY(0);
   }
 }
+
+.logout-btn {
+  width: auto; /* Adjust width as needed */
+  padding: 8px 16px;
+  border: none;
+  
+  border-radius: 8px;
+  background-color: #f43f5e; /* Distinct color for the logout button */
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logout-btn:hover {
+  background-color: #e11d48; /* Darker shade on hover */
+  transform: scale(1.05);
+}
+
+.logout-btn:active {
+  transform: scale(1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
 
 
 
